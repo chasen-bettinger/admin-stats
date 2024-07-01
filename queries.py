@@ -760,3 +760,269 @@ fragment ProvisionedAnalyzerFilter on ProvisionedAnalyzerFilterCount {
 }
 """
 )
+
+get_group_findings = gql(
+    """
+query getGroupFindings($filters: FindingGroupFiltersSchema, $first: Int, $after: String, $last: Int, $before: String, $page: Int, $locateId: String, $aggregation: AggregationInput, $orderBy: [GroupsOrderBy!]) {
+  groups(
+    filters: $filters
+    first: $first
+    after: $after
+    last: $last
+    before: $before
+    page: $page
+    locateId: $locateId
+    aggregation: $aggregation
+    orderBy: $orderBy
+  ) {
+    totalCount
+    page
+    locatedFindingGroupId
+    edges {
+      node {
+        findingGroupId
+        findingsCount
+        isViolation
+        ruleDescription
+        ruleName
+        uri
+        asset {
+          organizationName
+          projectName
+          label
+          viewerAssetId
+          scmProvider
+          baseUrl
+          repositoryAttributes {
+            personalInformationCategories {
+              value
+              displayValue
+              __typename
+            }
+            applicationComposition {
+              value
+              displayValue
+              __typename
+            }
+            access {
+              value
+              displayValue
+              __typename
+            }
+            contributors {
+              name
+              link
+              __typename
+            }
+            associatedServices {
+              value
+              displayValue
+              __typename
+            }
+            __typename
+          }
+          __typename
+        }
+        resource {
+          resourceId
+          resourceType
+          ... on ScmOrganizationResource {
+            scmProvider
+            baseUrl
+            organizationName
+            __typename
+          }
+          ... on ScmRepositoryResource {
+            scmProvider
+            baseUrl
+            organizationName
+            repositoryName
+            __typename
+          }
+          ... on ScmRepositoryCodeResource {
+            scmProvider
+            baseUrl
+            organizationName
+            repositoryName
+            label
+            branchName
+            commitId
+            __typename
+          }
+          ... on ScmRepositoryCodeChangeResource {
+            scmProvider
+            baseUrl
+            organizationName
+            repositoryName
+            label
+            branchName
+            commitId
+            pullRequestId
+            __typename
+          }
+          ... on ContainerImageResource {
+            containerRegistryProvider
+            baseUrl
+            registryName
+            repositoryName
+            label
+            digest
+            tags
+            __typename
+          }
+          __typename
+        }
+        scanners {
+          scannerId
+          scannerName
+          __typename
+        }
+        suppressions {
+          suppressionTagId
+          suppressionType
+          justification
+          mutable
+          isGroupSuppression
+          until
+          author
+          duration
+          __typename
+        }
+        scmLink {
+          text
+          href
+          __typename
+        }
+        severity
+        confidence
+        categories {
+          name
+          prettyName
+          ref
+          __typename
+        }
+        descriptionContent {
+          contentType
+          content
+          __typename
+        }
+        prettyRuleName
+        prettyDescription
+        docRef
+        details {
+          __typename
+          ... on SastDetails {
+            fileLocation {
+              uri
+              scmVersioned
+              startLineNumber
+              startColumnNumber
+              endLineNumber
+              endColumnNumber
+              __typename
+            }
+            commitId
+            __typename
+          }
+          ... on ScaDetails {
+            dependencyScope
+            licenses
+            package {
+              name
+              ecosystem
+              __typename
+            }
+            requirement
+            manifestFileLocation {
+              uri
+              scmVersioned
+              startLineNumber
+              startColumnNumber
+              endLineNumber
+              endColumnNumber
+              __typename
+            }
+            impactedVersions
+            cvssScore
+            epssScore
+            advisoryLink
+            cve
+            cvePublishedDate
+            transitiveInfo {
+              name
+              version
+              __typename
+            }
+            cveSummary
+            fixedVersions
+            fixableStatus
+            scorecard
+            reachability
+            __typename
+          }
+          ... on CicdDetails {
+            repositoryName
+            __typename
+          }
+          ... on ContainerScanningDetails {
+            dependencyScope
+            licenses
+            vulnerabilityId
+            imageName
+            imageVersion
+            tags
+            layerId
+            requirement
+            impactedVersions
+            cvssScore
+            epssScore
+            advisoryLink
+            package {
+              name
+              ecosystem
+              __typename
+            }
+            cvePublishedDate
+            transitiveInfo {
+              name
+              version
+              __typename
+            }
+            cveSummary
+            fixedVersions
+            fixableStatus
+            scorecard
+            __typename
+          }
+        }
+        originalRuleId
+        vulnerabilityIdentifiers {
+          value
+          identifierType
+          __typename
+        }
+        timestamp
+        acknowledgement
+        policy {
+          policyId
+          policyName
+          version
+          __typename
+        }
+        __typename
+      }
+      cursor
+      __typename
+    }
+    pageInfo {
+      hasNextPage
+      hasPreviousPage
+      startCursor
+      endCursor
+      __typename
+    }
+    __typename
+  }
+}
+"""
+)

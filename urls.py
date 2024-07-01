@@ -5,4 +5,5 @@ urls = {
     "account_admin": "https://api.boostsecurity.io/account-admin/graphql",
     "asset_management": "https://api.boostsecurity.io/asset-management/graphql",
     "asset_inventory": "https://api.boostsecurity.io/asset-inventory/graphql",
+    "findings_view": "https://api.boostsecurity.io/findings-view/graphql",
 }

@@ -338,3 +338,53 @@ def get_security_posture_filters(options):
 
     resp = network.check_cache(network_options)
     return resp.get("securityPosture").get("filters")
+
+
+def get_group_findings(options):
+    request = "get_group_findings"
+    org = options.get("org")
+    resp = []
+
+    def process_output(response):
+        nonlocal resp
+        edges = response.get("groups").get("edges")
+        resp = resp + edges
+
+    params = {
+        "filters": {
+            "detailsDependencyScopes": [],
+            "ruleNames": [],
+            "isViolation": True,
+            "securityCategories": [],
+            "severities": [],
+            "confidences": [],
+            "viewerAssetIds": [],
+            "processingStatus": [],
+            "suppressionTag": [],
+            "scannerIds": options.get("scanner_ids"),
+            "vulnerabilityIdentifiers": [],
+            "repositoryAttributes": [],
+            "policyId": [],
+        },
+        "first": 100,
+        "orderBy": [],
+        "page": 1,
+    }
+    label = f"{org}_{request}"
+
+    network_options = {
+        "url": urls["findings_view"],
+        "post_execution": process_output,
+        "page_info_pointer": ["groups"],
+        "params": params,
+        "query": queries.get_group_findings,
+        "label": label,
+        "meta": {"org": org, "request": request},
+        "page": 1,
+    }
+
+    if options.get("token") != None:
+        network_options["token"] = options.get("token")
+
+    network.paginate(network_options)
+    return resp
