@@ -1,0 +1,8 @@
+account_name,findings_previous,findings_current,findings_change,violations_previous,violations_current,violations_change,developerFixes_previous,developerFixes_current,developerFixes_change,newViolations_previous,newViolations_current,newViolations_change,scans_run,scans_failed,most_recent_successful_scan
+dwp,0,0,0,92,102,+10,0,1,+1,0,11,+11,728,321,BoostSecurity semgrep (2024-06-05T15:03:10.841182+00:00)
+hubintl,2188,2232,+44,1850,2314,+464,0,1,+1,14,849,+835,18668,35,BoostSecurity semgrep (2024-06-05T14:42:06.708222+00:00)
+jamcity,483,483,0,47362,47462,+100,0,0,0,46,153,+107,2033,1276,BoostSecurity semgrep (2024-06-05T20:12:20.210894+00:00)
+mattel,70,70,0,8223,8232,+9,9,51,+42,30,12,(-18),3900,363,BoostSecurity semgrep (2024-06-05T19:26:09.627896+00:00)
+momsmeals,0,0,0,69,69,0,0,0,0,0,0,0,14,0,BoostSecurity Trivy (FS SBOM) (2024-05-29T21:17:26.658454+00:00)
+truu,22,22,0,2519,2573,+54,23,1,(-22),64,59,(-5),2017,38,BoostSecurity Checkov (2024-06-05T20:11:46.375956+00:00)
+umg,0,3669,+3669,0,2699,+2699,0,0,0,0,3297,+3297,757,2,BoostSecurity semgrep (2024-06-05T05:12:17.392669+00:00)

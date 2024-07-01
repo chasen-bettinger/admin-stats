@@ -1,0 +1,746 @@
+account_name,findings_previous,findings_current,findings_change,violations_previous,violations_current,violations_change,developerFixes_previous,developerFixes_current,developerFixes_change,newViolations_previous,newViolations_current,newViolations_change,scans_run,scans_failed,most_recent_successful_scan,scan_failures
+dwp,0,0,0,92,102,+10,0,1,+1,0,11,+11,728,321,BoostSecurity semgrep (2024-06-05T15:03:10.841182+00:00),"BoostSecurity semgrep (2024-06-05T13:43:30.362235+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 952135dbe2484f6c18e1ef5c784644...' exited with non-zero exit status: 1""]
+
+BoostSecurity Scanner (2024-06-05T13:43:11.812921+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 952135dbe2484f6c18e1ef5c784644...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-05T13:42:52.670216+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 952135dbe2484f6c18e1ef5c784644...' exited with non-zero exit status: 1""]
+
+BoostSecurity Gitleaks (2024-06-05T13:42:44.323673+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 952135dbe2484f6c18e1ef5c784644...' exited with non-zero exit status: 1""]
+
+BoostSecurity semgrep (2024-06-05T13:31:21.452018+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 31ef636f9c608d11b4e2b44007e2fa...' exited with non-zero exit status: 1""]
+
+BoostSecurity Scanner (2024-06-05T13:31:19.024413+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 31ef636f9c608d11b4e2b44007e2fa...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-05T13:30:55.148982+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 31ef636f9c608d11b4e2b44007e2fa...' exited with non-zero exit status: 1""]
+
+BoostSecurity Gitleaks (2024-06-05T13:30:53.149447+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 31ef636f9c608d11b4e2b44007e2fa...' exited with non-zero exit status: 1""]
+
+BoostSecurity semgrep (2024-06-05T13:29:01.099364+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 16e07f95c150c31085f06464bfca64...' exited with non-zero exit status: 1""]
+
+BoostSecurity Scanner (2024-06-05T13:28:53.513389+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 16e07f95c150c31085f06464bfca64...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-05T13:28:28.895745+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 16e07f95c150c31085f06464bfca64...' exited with non-zero exit status: 1""]
+
+BoostSecurity Gitleaks (2024-06-05T13:28:25.841894+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 16e07f95c150c31085f06464bfca64...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-05T11:19:42.024862+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach 70a9700e8239cbce75dcd8b...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-05T10:03:21.749208+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach aff73b13550c950978cbc2d...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-05T09:51:51.722330+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach 3caf5d3459c0aa8c29b3c3c...' exited with non-zero exit status: 1""]
+
+BoostSecurity semgrep (2024-06-05T09:35:30.789639+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 61ae7a1bf45c3fef387f55b34cec86...' exited with non-zero exit status: 1""]
+
+BoostSecurity Scanner (2024-06-05T09:35:23.927095+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 61ae7a1bf45c3fef387f55b34cec86...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-05T09:35:05.504067+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 61ae7a1bf45c3fef387f55b34cec86...' exited with non-zero exit status: 1""]
+
+BoostSecurity Gitleaks (2024-06-05T09:34:57.466124+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 61ae7a1bf45c3fef387f55b34cec86...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-05T09:19:23.808612+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach dffd7cacfe470fd5de22900...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-05T09:13:57.359784+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach 032f24b51ff083c25b049e9...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-05T09:12:07.185212+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach 3b047bcd739d0fcd22a74ff...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-05T09:03:22.537585+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach a3d66ff431f964f2e716e17...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-05T08:50:43.302351+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 36becaf744dca8838124340fd35783...' exited with non-zero exit status: 1""]
+
+BoostSecurity semgrep (2024-06-04T17:23:34.454926+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 00ac160bf1bea8cdcaa73b49cec1f3...' exited with non-zero exit status: 1""]
+
+BoostSecurity Scanner (2024-06-04T17:23:04.638338+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 00ac160bf1bea8cdcaa73b49cec1f3...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-04T17:22:25.711872+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 00ac160bf1bea8cdcaa73b49cec1f3...' exited with non-zero exit status: 1""]
+
+BoostSecurity Gitleaks (2024-06-04T17:21:49.729204+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 00ac160bf1bea8cdcaa73b49cec1f3...' exited with non-zero exit status: 1""]
+
+BoostSecurity semgrep (2024-06-04T17:18:42.787011+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 6ce3d627580155a84ffaddcaed56fb...' exited with non-zero exit status: 1""]
+
+BoostSecurity Scanner (2024-06-04T17:18:16.138797+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 6ce3d627580155a84ffaddcaed56fb...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-04T17:17:47.245477+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 6ce3d627580155a84ffaddcaed56fb...' exited with non-zero exit status: 1""]
+
+BoostSecurity Gitleaks (2024-06-04T17:17:19.928676+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 6ce3d627580155a84ffaddcaed56fb...' exited with non-zero exit status: 1""]
+
+BoostSecurity semgrep (2024-06-04T15:43:50.118472+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 5c0ae5fd7156629d2403da522fe7da...' exited with non-zero exit status: 1""]
+
+BoostSecurity Scanner (2024-06-04T15:43:45.200543+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 5c0ae5fd7156629d2403da522fe7da...' exited with non-zero exit status: 1""]
+
+BoostSecurity Gitleaks (2024-06-04T15:43:16.085134+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 5c0ae5fd7156629d2403da522fe7da...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-04T15:43:14.410357+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 5c0ae5fd7156629d2403da522fe7da...' exited with non-zero exit status: 1""]
+
+BoostSecurity Scanner (2024-06-04T12:17:48.785804+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 164b5b694e230cdedaf76aef62f952...' exited with non-zero exit status: 1""]
+
+BoostSecurity semgrep (2024-06-04T12:17:43.598622+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 164b5b694e230cdedaf76aef62f952...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-04T12:17:08.705319+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 164b5b694e230cdedaf76aef62f952...' exited with non-zero exit status: 1""]
+
+BoostSecurity Gitleaks (2024-06-04T12:17:05.084615+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 164b5b694e230cdedaf76aef62f952...' exited with non-zero exit status: 1""]
+
+BoostSecurity semgrep (2024-06-04T12:12:39.216235+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 53701d487574eda0114dedbba49a22...' exited with non-zero exit status: 1""]
+
+BoostSecurity Scanner (2024-06-04T12:12:30.786880+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 53701d487574eda0114dedbba49a22...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-04T12:12:04.368209+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 53701d487574eda0114dedbba49a22...' exited with non-zero exit status: 1""]
+
+BoostSecurity Gitleaks (2024-06-04T12:12:02.277593+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 53701d487574eda0114dedbba49a22...' exited with non-zero exit status: 1""]
+
+BoostSecurity semgrep (2024-06-04T11:30:23.469973+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base e233407f29a5d35bb4c96b1fbb8fef...' exited with non-zero exit status: 1""]
+
+BoostSecurity Scanner (2024-06-04T11:30:12.221297+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base e233407f29a5d35bb4c96b1fbb8fef...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-04T11:29:54.268434+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base e233407f29a5d35bb4c96b1fbb8fef...' exited with non-zero exit status: 1""]
+
+BoostSecurity Gitleaks (2024-06-04T11:29:50.263258+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base e233407f29a5d35bb4c96b1fbb8fef...' exited with non-zero exit status: 1""]
+
+BoostSecurity Scanner (2024-06-04T11:27:27.901764+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base d9ad93df11d4d84891119e4cfbb6af...' exited with non-zero exit status: 1""]
+
+BoostSecurity semgrep (2024-06-04T11:27:27.817715+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base d9ad93df11d4d84891119e4cfbb6af...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-04T11:26:59.842397+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base d9ad93df11d4d84891119e4cfbb6af...' exited with non-zero exit status: 1""]
+
+BoostSecurity Gitleaks (2024-06-04T11:26:53.357433+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base d9ad93df11d4d84891119e4cfbb6af...' exited with non-zero exit status: 1""]
+
+BoostSecurity semgrep (2024-06-04T10:30:02.644134+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 36becaf744dca8838124340fd35783...' exited with non-zero exit status: 1""]
+
+BoostSecurity Scanner (2024-06-04T10:29:53.286577+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 36becaf744dca8838124340fd35783...' exited with non-zero exit status: 1""]
+
+BoostSecurity Gitleaks (2024-06-04T10:28:52.920794+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 36becaf744dca8838124340fd35783...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-04T09:48:22.288816+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach bbadc607a64afc6d9d34d88...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-04T08:46:15.896323+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach da957a4dfe735397b5919c9...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-04T08:32:53.736647+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach d17dd7989614ef75baa7213...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-04T07:45:44.584998+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach 101cad939bbfb950ce23a29...' exited with non-zero exit status: 1""]
+
+BoostSecurity Checkov (2024-06-03T20:48:57.930453+00:00) -- dwp-dev/northstar/northstar-infrastructure -- ERROR -- [""command 'git merge-base e418c111d7111a25c83e8825de5951...' exited with non-zero exit status: 1""]
+
+BoostSecurity semgrep (2024-06-03T20:48:53.365055+00:00) -- dwp-dev/northstar/northstar-infrastructure -- ERROR -- [""command 'git merge-base e418c111d7111a25c83e8825de5951...' exited with non-zero exit status: 1""]
+
+BoostSecurity semgrep (2024-06-03T17:39:05.674187+00:00) -- dwp-dev/northstar/northstar-infrastructure -- ERROR -- [""command 'git merge-base c29efb6aad07ff4c806a0ff2580fb4...' exited with non-zero exit status: 1""]
+
+BoostSecurity Checkov (2024-06-03T17:39:04.304452+00:00) -- dwp-dev/northstar/northstar-infrastructure -- ERROR -- [""command 'git merge-base c29efb6aad07ff4c806a0ff2580fb4...' exited with non-zero exit status: 1""]
+
+BoostSecurity semgrep (2024-06-03T15:58:23.472154+00:00) -- dwp-dev/northstar/northstar-infrastructure -- ERROR -- [""command 'git merge-base 17cdae7186a1d2ae50f6397b8b8e5f...' exited with non-zero exit status: 1""]
+
+BoostSecurity Checkov (2024-06-03T15:58:21.815042+00:00) -- dwp-dev/northstar/northstar-infrastructure -- ERROR -- [""command 'git merge-base 17cdae7186a1d2ae50f6397b8b8e5f...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-03T15:48:07.507438+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach 9db15223b5f799c76200678...' exited with non-zero exit status: 1""]
+
+BoostSecurity Checkov (2024-06-03T15:43:57.088060+00:00) -- dwp-dev/northstar/northstar-infrastructure -- ERROR -- [""command 'git merge-base 4f8bae7d0f15329a843c6fb3786348...' exited with non-zero exit status: 1""]
+
+BoostSecurity semgrep (2024-06-03T15:43:56.461689+00:00) -- dwp-dev/northstar/northstar-infrastructure -- ERROR -- [""command 'git merge-base 4f8bae7d0f15329a843c6fb3786348...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-03T15:28:38.000282+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach 858dc6b52da477a478ae600...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-03T15:25:29.304848+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach 9220c5114591da672b07163...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-03T14:45:30.406532+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach f5a6d46765dbc3829ecb305...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-03T14:36:31.833848+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach 70871fed3a94ce79f69235f...' exited with non-zero exit status: 1""]
+
+BoostSecurity semgrep (2024-06-03T13:42:21.551679+00:00) -- dwp-dev/northstar/northstar-infrastructure -- ERROR -- [""command 'git merge-base 5abd7658a50950f373038998f57360...' exited with non-zero exit status: 1""]
+
+BoostSecurity Checkov (2024-06-03T13:42:20.118120+00:00) -- dwp-dev/northstar/northstar-infrastructure -- ERROR -- [""command 'git merge-base 5abd7658a50950f373038998f57360...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-03T11:51:07.749301+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach 5fb3a4d4cdc8a20834e3468...' exited with non-zero exit status: 1""]
+
+BoostSecurity semgrep (2024-06-03T11:49:27.816768+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 0e41446e8e4e89d5c1b08740b8cd47...' exited with non-zero exit status: 1""]
+
+BoostSecurity Scanner (2024-06-03T11:49:02.884891+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 0e41446e8e4e89d5c1b08740b8cd47...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-03T11:48:36.444959+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 0e41446e8e4e89d5c1b08740b8cd47...' exited with non-zero exit status: 1""]
+
+BoostSecurity Gitleaks (2024-06-03T11:48:00.829777+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 0e41446e8e4e89d5c1b08740b8cd47...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-03T09:24:47.254258+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach 4c4089a9054b0fedd8d503a...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-03T09:19:56.523686+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach b59c5d947ac7fec4cb0f616...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-03T09:14:33.335355+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach a3f18f370919e4deb531172...' exited with non-zero exit status: 1""]
+
+BoostSecurity semgrep (2024-06-03T09:09:49.115473+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base e0f9698c65af0a0f28428352c4edeb...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-03T09:09:31.466517+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base e0f9698c65af0a0f28428352c4edeb...' exited with non-zero exit status: 1""]
+
+BoostSecurity Scanner (2024-06-03T09:09:26.528817+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base e0f9698c65af0a0f28428352c4edeb...' exited with non-zero exit status: 1""]
+
+BoostSecurity Gitleaks (2024-06-03T09:08:58.540479+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base e0f9698c65af0a0f28428352c4edeb...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-03T09:06:07.491861+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach 2297648db3ce079360e5c7f...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-03T08:57:36.451929+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach 1d527df828d379e95de2853...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-03T08:10:59.332933+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach e9e81188f65ac388f3213fa...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-03T07:58:15.709115+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach 363ef78147ec121c8475be9...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-03T07:39:09.059062+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach eb8bcb0bec4b91526908e13...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-03T06:35:25.598191+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach 354e096ce5131e97dfb4f3b...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-03T06:30:20.610315+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach f4f2008ed515b2dda229a8e...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-06-03T06:26:20.041823+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach 8511222a76aa8f25b9ecaa7...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-05-31T22:13:43.871494+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach 7c38835833521db425a97f8...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-05-31T07:43:46.910303+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'docker start --attach bbd96025e70ed9fcb837b5a...' exited with non-zero exit status: 1""]
+
+BoostSecurity semgrep (2024-05-31T07:21:55.668427+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 3ff0fcf7c9e29b93be3c52783da0b9...' exited with non-zero exit status: 1""]
+
+BoostSecurity Scanner (2024-05-31T07:21:28.466070+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 3ff0fcf7c9e29b93be3c52783da0b9...' exited with non-zero exit status: 1""]
+
+BoostSecurity npm-audit (2024-05-31T07:21:01.568443+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 3ff0fcf7c9e29b93be3c52783da0b9...' exited with non-zero exit status: 1""]
+
+BoostSecurity Gitleaks (2024-05-31T07:20:22.080264+00:00) -- dwp-dev/northstar/northstar-application -- ERROR -- [""command 'git merge-base 3ff0fcf7c9e29b93be3c52783da0b9...' exited with non-zero exit status: 1""]"
+hubintl,2188,2232,+44,1850,2314,+464,0,1,+1,14,849,+835,18668,35,BoostSecurity semgrep (2024-06-05T14:42:06.708222+00:00),"SonarQube (2024-05-31T08:41:23.013414+00:00) -- hubintdevelopers/VIU-XM-Cloud -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=master&componentKeys=hubintdevelopers_viu-xm-cloud&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:22.404249+00:00) -- hubintdevelopers/VIU-UI-Mobile -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=main&componentKeys=hubintdevelopers_viu-ui-mobile&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:21.956482+00:00) -- hubintdevelopers/VIU-UI-Account -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=develop&componentKeys=hubintdevelopers_viu-ui-account&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:21.364383+00:00) -- hubintdevelopers/VIU-UI -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=develop&componentKeys=hubintdevelopers_viu-ui&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:20.728336+00:00) -- hubintdevelopers/VIU-StratPartnerAPI -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=develop&componentKeys=hubintdevelopers_viu-stratpartnerapi&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:19.873812+00:00) -- hubintdevelopers/VIU-Server -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=develop&componentKeys=hubintdevelopers_viu-server&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:19.291873+00:00) -- hubintdevelopers/VIU-Mobile-Automation -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=main&componentKeys=hubintdevelopers_viu-mobile-automation&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:18.706566+00:00) -- hubintdevelopers/viu-lib-launchdarkly -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=develop&componentKeys=hubintdevelopers_viu-lib-launchdarkly&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:18.233041+00:00) -- hubintdevelopers/viu-lib-dynatrace -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=main&componentKeys=hubintdevelopers_viu-lib-dynatrace&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:17.639634+00:00) -- hubintdevelopers/VIU-JSS -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=master&componentKeys=hubintdevelopers_viu-jss&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:17.037661+00:00) -- hubintdevelopers/VIU-DataDictionary-DefaultDataOverrides -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=master&componentKeys=hubintdevelopers_viu-datadictionary-defaultdataoverrides&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:16.583196+00:00) -- hubintdevelopers/VIU-AccountServer -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=develop&componentKeys=hubintdevelopers_viu-accountserver&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:15.718201+00:00) -- hubintdevelopers/Student Health Information Portal -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=master&componentKeys=hubintdevelopers_student-health-information-portal&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:15.157049+00:00) -- hubintdevelopers/sqlserverdatabase-sys-api -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=main&componentKeys=hubintdevelopers_sqlserverdatabase-sys-api&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:14.564521+00:00) -- hubintdevelopers/sales-process-api -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=main&componentKeys=hubintdevelopers_sales-process-api&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:13.991486+00:00) -- hubintdevelopers/rpw-dev-sys-api -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=master&componentKeys=hubintdevelopers_rpw-dev-sys-api&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:13.431387+00:00) -- hubintdevelopers/rpw-dev-proc-api -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=master&componentKeys=hubintdevelopers_rpw-dev-proc-api&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:12.982323+00:00) -- hubintdevelopers/mga-netsuite-sys-api -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=master&componentKeys=hubintdevelopers_mga-netsuite-sys-api&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:12.386714+00:00) -- hubintdevelopers/mga-exp-api -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=main&componentKeys=hubintdevelopers_mga-exp-api&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:11.928119+00:00) -- hubintdevelopers/mga-convex-sys-api -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=master&componentKeys=hubintdevelopers_mga-convex-sys-api&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:11.274710+00:00) -- hubintdevelopers/HUBToolsConversion -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=master&componentKeys=hubintdevelopers_hubtoolsconversion&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:10.392217+00:00) -- hubintdevelopers/HubStation -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=develop&componentKeys=hubintdevelopers_hubstation&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:09.601629+00:00) -- hubintdevelopers/HubRater -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=master&componentKeys=hubintdevelopers_hubrater&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:08.610092+00:00) -- hubintdevelopers/hubintdevelopers_BmsFlow_DotNet -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=develop&componentKeys=hubintdevelopers_BmsFlow_DotNet&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:08.115190+00:00) -- hubintdevelopers/fenpro-ppib-system-api -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=master&componentKeys=hubintdevelopers_fenpro-ppib-system-api&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:07.340818+00:00) -- hubintdevelopers/fenpro-ppib-proc-api -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=master&componentKeys=hubintdevelopers_fenpro-ppib-proc-api&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:06.489289+00:00) -- hubintdevelopers/fenpro-ppib-proc-aim-api -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=master&componentKeys=hubintdevelopers_fenpro-ppib-proc-aim-api&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:05.755525+00:00) -- hubintdevelopers/fenpro-ppib-exp-api -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=master&componentKeys=hubintdevelopers_fenpro-ppib-exp-api&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:04.988888+00:00) -- hubintdevelopers/echosapi-sys-api -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=master&componentKeys=hubintdevelopers_echosapi-sys-api&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:04.553628+00:00) -- hubintdevelopers/echosapi-proc-api -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=master&componentKeys=hubintdevelopers_echosapi-proc-api&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:03.802313+00:00) -- hubintdevelopers/CBO to API Conversion -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=main&componentKeys=hubintdevelopers_cbo-to-api-conversion&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:03.368518+00:00) -- hubintdevelopers/BmsFlow_JS -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=develop&componentKeys=hubintdevelopers_BmsFlow_JS&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:02.470747+00:00) -- hubintdevelopers/Bix -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=master&componentKeys=hubintdevelopers_bix&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:01.597572+00:00) -- hubintdevelopers/ara-ftni-proc-api -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=master&componentKeys=hubintdevelopers_ara-ftni-proc-api&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']
+
+SonarQube (2024-05-31T08:41:00.841368+00:00) -- hubintdevelopers/ara-ftni-sys-api -- ERROR -- ['Got Forbidden: 403 for https://sonarcloud.io/api/issues/search?additionalFields=rules&branch=master&componentKeys=hubintdevelopers_ara-ftni-sys-api&statuses=OPEN,CONFIRMED&types=VULNERABILITY&p=1&ps=20']"
+jamcity,483,483,0,47362,47462,+100,0,0,0,46,153,+107,2033,1276,BoostSecurity semgrep (2024-06-05T20:12:20.210894+00:00),"Dependabot (2024-06-05T20:02:09.693490+00:00) -- mindjolt/zendeskHTML -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:09.338822+00:00) -- mindjolt/workflow-testing -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:08.919946+00:00) -- mindjolt/vowpal -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:08.516277+00:00) -- mindjolt/unity-promises -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:08.142999+00:00) -- mindjolt/unity-profanity-filter-demo -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:08.135174+00:00) -- mindjolt/xJSFL -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:07.787858+00:00) -- mindjolt/websocket-to-kafka -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:07.786877+00:00) -- mindjolt/unity-mobile-additions -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:07.438620+00:00) -- mindjolt/webgs -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:07.402592+00:00) -- mindjolt/unity-leagues-sdk -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:07.070916+00:00) -- mindjolt/user-batch-processors -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:07.024718+00:00) -- mindjolt/unity-gem -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:06.749047+00:00) -- mindjolt/unity-unitycore-localization -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:06.664576+00:00) -- mindjolt/unity-clubs-demo -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:06.388738+00:00) -- mindjolt/unity-unitycore-foundation -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:06.216996+00:00) -- mindjolt/unity-chat-demo -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:06.038991+00:00) -- mindjolt/unity-third-party-login -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:05.789226+00:00) -- mindjolt/unity-ads-insights-sdk -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:05.681906+00:00) -- mindjolt/unity-storekit -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:05.478935+00:00) -- mindjolt/temporal-deployment -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:05.229364+00:00) -- mindjolt/unity-judi-sdk -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:05.044562+00:00) -- mindjolt/state-service -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:04.851627+00:00) -- mindjolt/unity-dlc -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:04.461652+00:00) -- mindjolt/zjsonpatch -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:04.406840+00:00) -- mindjolt/unity-dcp -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:04.372682+00:00) -- mindjolt/ssl -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:04.014352+00:00) -- mindjolt/web-payments-service -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:03.992299+00:00) -- mindjolt/unity-appleadnetwork -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:03.985719+00:00) -- mindjolt/spark-cassandra-connector-jcshade -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:03.643675+00:00) -- mindjolt/solitaire-backend -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:03.638798+00:00) -- mindjolt/unity-android-permissions -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:03.609224+00:00) -- mindjolt/workTools -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:03.313666+00:00) -- mindjolt/service-data-lake -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:02.938035+00:00) -- mindjolt/sdk-test -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:02.815798+00:00) -- mindjolt/state-api -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:02.758133+00:00) -- mindjolt/vagrant-wheezy64 -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:02.561660+00:00) -- mindjolt/sd3-feed-api -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:02.416759+00:00) -- mindjolt/sd3-search-api -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:02.410167+00:00) -- mindjolt/unity-unitycore-unity-additions -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:02.139472+00:00) -- mindjolt/unity-unitycore-messagebus -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:02.064340+00:00) -- mindjolt/sd3-rating-unity -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:02.019345+00:00) -- mindjolt/unity-sdk-demos -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:01.896057+00:00) -- mindjolt/sd-qa -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:01.726937+00:00) -- mindjolt/sd3-design -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:01.626313+00:00) -- mindjolt/unity-deeplinks -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:01.505384+00:00) -- mindjolt/unity-chat-sdk -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:01.388267+00:00) -- mindjolt/unity-module -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:01.330795+00:00) -- mindjolt/s3-bundler-cli -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:01.240588+00:00) -- mindjolt/unity-common-sdk -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:01.143306+00:00) -- mindjolt/rtd-service-deployment -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:00.986780+00:00) -- mindjolt/rss-ios-resign -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:00.976953+00:00) -- mindjolt/unity-jcid -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:00.892217+00:00) -- mindjolt/unity-config -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:00.674154+00:00) -- mindjolt/tableau_metric_indices -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:00.628485+00:00) -- mindjolt/pluto -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:00.618199+00:00) -- mindjolt/unity-crm-ui -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:00.467966+00:00) -- mindjolt/unity-auth-sdk -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:00.313530+00:00) -- mindjolt/rss-pipeline-libraries -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:00.248500+00:00) -- mindjolt/player-service -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:00.227633+00:00) -- mindjolt/unity-android-dialog -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:02:00.092394+00:00) -- mindjolt/unity-agegate-sdk -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:59.919797+00:00) -- mindjolt/solitaire-content -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:59.908292+00:00) -- mindjolt/player-cohort-service -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:59.898784+00:00) -- mindjolt/text2sql -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:59.580309+00:00) -- mindjolt/plexonic-f2 -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:59.516128+00:00) -- mindjolt/platformer-recipe -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:59.514484+00:00) -- mindjolt/wildthings -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:59.390997+00:00) -- mindjolt/sgnla-sandbox -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:59.158048+00:00) -- mindjolt/sms-promo -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:59.157840+00:00) -- mindjolt/vertx-tracing -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:59.152428+00:00) -- mindjolt/paint-monsters-server -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:59.074594+00:00) -- mindjolt/sgn-starling-builder-extensions -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:58.873706+00:00) -- mindjolt/xsolla-server-prototype -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:58.806775+00:00) -- mindjolt/platformer-hello-world-deployment -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:58.798518+00:00) -- mindjolt/unity-unitycore -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:58.767026+00:00) -- mindjolt/slack-mod-bot -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:58.736037+00:00) -- mindjolt/sgn-starling-builder-editor -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:58.481693+00:00) -- mindjolt/web-payments-deployment -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:58.458708+00:00) -- mindjolt/sd-state-api -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:58.424972+00:00) -- mindjolt/shotgun_jira_bridge -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:58.395803+00:00) -- mindjolt/unity-ads-insight-demo -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:58.387297+00:00) -- mindjolt/sgn-com -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:58.122953+00:00) -- mindjolt/photoshop-tools -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:58.085160+00:00) -- mindjolt/xrewards -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:58.057596+00:00) -- mindjolt/seldon-tfx-featstore -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:57.984478+00:00) -- mindjolt/sd3-rating-service -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:57.984091+00:00) -- mindjolt/typescript-starter -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:57.730202+00:00) -- mindjolt/restAPI_Slack_helpshift -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:57.723543+00:00) -- mindjolt/sd3-service -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:57.715117+00:00) -- mindjolt/vertx-microservice-generator -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:57.662455+00:00) -- mindjolt/vfab-editor -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:57.611133+00:00) -- mindjolt/tmpro -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:57.608026+00:00) -- mindjolt/rts-node-service-deployment -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:57.396507+00:00) -- mindjolt/panda-mobile -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:57.357815+00:00) -- mindjolt/sbt-publish-plugin -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:57.333505+00:00) -- mindjolt/universal-links -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:57.276701+00:00) -- mindjolt/unity-state-sdk -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:57.265457+00:00) -- mindjolt/tiny-json -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:57.163364+00:00) -- mindjolt/rest -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']
+
+Dependabot (2024-06-05T20:01:57.014460+00:00) -- mindjolt/pvp-seeder -- ERROR -- ['Cannot scan with Dependabot, Dependabot alerts are disabled.\nEnable the Dependabot alerts in your Github organization or repository.\n']"
+mattel,70,70,0,8223,8232,+9,9,51,+42,30,12,(-18),3900,363,BoostSecurity semgrep (2024-06-05T19:26:09.627896+00:00),"BoostSecurity Checkov (2024-06-05T18:21:19.683273+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-05T17:42:16.832091+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-05T17:20:21.229659+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-05T16:28:18.425750+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-05T15:57:51.576966+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-05T15:51:50.955273+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-05T14:45:51.412478+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-05T14:05:20.126577+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-05T13:53:50.828466+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity semgrep (2024-06-05T11:28:08.921189+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Trivy (Filesystem scanning) (2024-06-05T11:26:47.727414+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-05T10:55:03.318221+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-05T10:36:55.269854+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-05T10:11:21.388685+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-05T10:11:20.317709+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-05T07:07:18.642063+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-05T06:18:40.904612+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-05T06:16:23.529843+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-05T05:34:15.284263+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-05T03:57:22.097094+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T18:57:45.475710+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Trivy (Filesystem scanning) (2024-06-04T18:47:04.517882+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T18:46:45.239689+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T18:21:54.937683+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T18:05:31.461922+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T17:42:43.847556+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Gitleaks (2024-06-04T17:41:37.418673+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T17:41:14.847643+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T17:18:44.081656+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T17:10:52.482159+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T16:44:57.174914+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T16:35:56.447412+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T16:35:48.638656+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity semgrep (2024-06-04T15:16:52.359230+00:00) -- infrastructure/infrastructure -- ERROR -- [""command 'docker start --attach b4b3dafcdb5c6aafe213417...' exited with non-zero exit status: 2""]
+
+BoostSecurity semgrep (2024-06-04T15:16:06.759181+00:00) -- infrastructure/infrastructure -- ERROR -- [""command 'docker start --attach 02a7fdd89c9cf9c362dfc88...' exited with non-zero exit status: 2""]
+
+BoostSecurity Checkov (2024-06-04T15:11:41.398380+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T13:53:19.676190+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T13:43:18.103405+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T13:37:47.412411+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T13:29:16.716772+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T13:27:41.523037+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T13:15:46.977637+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T13:02:45.563695+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T12:42:56.145508+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T12:18:21.560330+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T11:39:46.088727+00:00) -- middleware/enterprise-services -- ERROR -- [""command 'docker start --attach 314f6325804d4f3307448cf...' exited with non-zero exit status: 125""]
+
+BoostSecurity Checkov (2024-06-04T11:23:47.530777+00:00) -- middleware/enterprise-services -- ERROR -- [""command 'docker start --attach 2ac1507fe6b3bfda81c2b9e...' exited with non-zero exit status: 125""]
+
+BoostSecurity Checkov (2024-06-04T11:09:08.716724+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T08:44:20.928868+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity semgrep (2024-06-04T08:01:42.410224+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T08:00:17.661784+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T07:33:36.125352+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T07:26:58.870571+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T07:24:48.681899+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T06:53:44.566178+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T05:03:42.834195+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Gitleaks (2024-06-04T01:12:04.531752+00:00) -- digital/mattel-barbie-redirect -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-03T22:22:08.962612+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-03T21:06:12.548143+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity semgrep (2024-06-03T18:42:16.147968+00:00) -- e-design/magic-cat-qt -- TIMEOUT -- None
+
+BoostSecurity Safety (2024-06-03T18:42:12.435235+00:00) -- e-design/magic-cat-qt -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-03T18:04:45.113839+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-03T13:52:07.586750+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-03T12:14:24.779340+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-03T12:11:04.408644+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-03T12:03:09.138326+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-03T11:42:38.277048+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-03T11:36:37.517915+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-03T11:23:08.592765+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity semgrep (2024-06-03T10:17:21.454006+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-03T10:16:39.614886+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-03T09:36:44.712300+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-03T08:18:43.741163+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-03T08:16:46.379336+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Trivy (Filesystem scanning) (2024-06-03T07:14:47.321732+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Gitleaks (2024-06-03T07:14:07.471206+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-03T07:13:29.964924+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-03T07:06:47.637215+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-03T07:03:22.101584+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-03T06:52:41.368258+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-03T06:10:14.852381+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-03T05:51:39.285623+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-01T13:45:49.315867+00:00) -- infrastructure/google-cloud-platform/enterprise-integration -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-31T19:09:33.473135+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-31T18:41:26.963385+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-31T18:36:31.313223+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-31T16:25:33.048114+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-31T16:20:32.931559+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-31T15:59:32.897260+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-31T15:34:37.459325+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-31T14:55:31.994582+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-31T14:34:32.452102+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-31T14:18:00.581413+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-31T14:12:30.081851+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-31T14:05:57.334486+00:00) -- middleware/enterprise-services -- ERROR -- [""command 'docker start --attach 5c68bd0e7fdacb66c6fb5cc...' exited with non-zero exit status: 125""]
+
+BoostSecurity Checkov (2024-05-31T14:03:10.610355+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-31T13:44:20.464680+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-31T13:39:01.460311+00:00) -- middleware/enterprise-services -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-31T13:11:56.880090+00:00) -- middleware/enterprise-services -- ERROR -- [""command 'docker start --attach 392e71cf5718ce2f775db31...' exited with non-zero exit status: 125""]
+
+BoostSecurity Checkov (2024-05-31T12:43:09.903896+00:00) -- middleware/enterprise-services -- ERROR -- [""command 'docker start --attach 516c04755dfd8b2fa3a9bf8...' exited with non-zero exit status: 125""]"
+momsmeals,0,0,0,69,69,0,0,0,0,0,0,0,14,0,BoostSecurity Trivy (FS SBOM) (2024-05-29T21:17:26.658454+00:00),
+truu,22,22,0,2519,2573,+54,23,1,(-22),64,59,(-5),2017,38,BoostSecurity Checkov (2024-06-05T20:11:46.375956+00:00),"BoostSecurity Checkov (2024-06-04T12:50:05.993039+00:00) -- truudev/truu-ios-app -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T12:14:46.568682+00:00) -- truudev/truu-ios-app -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T11:13:34.345494+00:00) -- truudev/truu-ios-app -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-06-04T10:57:36.467249+00:00) -- truudev/cerberus -- TIMEOUT -- None
+
+BoostSecurity semgrep (2024-06-04T10:57:14.078113+00:00) -- truudev/cerberus -- TIMEOUT -- None
+
+BoostSecurity Scanner (2024-06-04T10:56:59.630401+00:00) -- truudev/cerberus -- TIMEOUT -- None
+
+BoostSecurity Gitleaks (2024-05-31T15:26:55.650104+00:00) -- truudev/truu-android-app -- ERROR -- [""command 'git fetch --depth=2 --no-recurse-submodules -...' exited with non-zero exit status: 128""]
+
+BoostSecurity semgrep (2024-05-31T15:26:51.273732+00:00) -- truudev/truu-android-app -- ERROR -- [""command 'git fetch --depth=2 --no-recurse-submodules -...' exited with non-zero exit status: 128""]
+
+BoostSecurity Scanner (2024-05-31T15:26:49.090923+00:00) -- truudev/truu-android-app -- ERROR -- [""command 'git fetch --depth=2 --no-recurse-submodules -...' exited with non-zero exit status: 128""]
+
+BoostSecurity Checkov (2024-05-31T15:26:45.319230+00:00) -- truudev/truu-android-app -- ERROR -- [""command 'git fetch --depth=2 --no-recurse-submodules -...' exited with non-zero exit status: 128""]
+
+BoostSecurity Checkov (2024-05-31T13:31:05.709939+00:00) -- truudev/truu-ios-app -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-31T12:46:50.453306+00:00) -- truudev/truu-ios-app -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-31T11:59:29.459027+00:00) -- truudev/truu-ios-app -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-31T08:40:31.019287+00:00) -- truudev/truu-ios-app -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-31T08:31:55.664887+00:00) -- truudev/truu-ios-app -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-30T10:50:24.927593+00:00) -- truudev/truu-ios-app -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-30T10:40:41.569908+00:00) -- truudev/truu-ios-app -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-30T10:08:29.138465+00:00) -- truudev/truu-ios-app -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-30T02:57:38.519249+00:00) -- truudev/cat -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-29T12:15:09.888629+00:00) -- truudev/truu-ios-app -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-29T11:16:47.814936+00:00) -- truudev/truu-ios-app -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-29T11:03:43.438169+00:00) -- truudev/truu-ios-app -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-29T09:02:49.094864+00:00) -- truudev/truu-ios-app -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-29T07:00:10.676774+00:00) -- truudev/truu-ios-app -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-28T12:12:11.833025+00:00) -- truudev/truu-ios-app -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-28T10:39:05.246088+00:00) -- truudev/truu-ios-app -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-28T10:20:00.225140+00:00) -- truudev/truu-ios-app -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-27T19:33:47.372394+00:00) -- truudev/truu-ios-app -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-27T19:02:19.545196+00:00) -- truudev/truu-ios-app -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-24T10:24:15.123745+00:00) -- truudev/truu-ios-app -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-24T10:12:36.930379+00:00) -- truudev/truu-ios-app -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-24T09:16:53.523166+00:00) -- truudev/truu-ios-app -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-23T13:26:20.806884+00:00) -- truudev/truu-android-app -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-23T12:33:46.652336+00:00) -- truudev/truu-ios-app -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-22T18:25:09.435294+00:00) -- truudev/cerberus -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-22T13:58:37.869957+00:00) -- truudev/truu-ios-app -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-22T13:51:37.635337+00:00) -- truudev/truu-ios-app -- TIMEOUT -- None
+
+BoostSecurity Checkov (2024-05-22T13:51:06.240094+00:00) -- truudev/truu-ios-app -- TIMEOUT -- None"
+umg,0,3669,+3669,0,2699,+2699,0,0,0,0,3297,+3297,757,2,BoostSecurity semgrep (2024-06-05T05:12:17.392669+00:00),"BoostSecurity SBOM SCA (2024-06-05T12:15:11.996000+00:00) -- boost-testing052024/iGoat-swift -- ERROR -- ['Underlying SBOM contains an unsupported package type']
+
+BoostSecurity SBOM SCA (2024-06-05T12:15:05.739728+00:00) -- boost-testing052024/react-hook-form -- ERROR -- ['Underlying SBOM contains an unsupported package type']"

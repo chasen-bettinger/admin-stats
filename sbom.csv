@@ -1,0 +1,10 @@
+account_name,findings_previous,findings_current,findings_change,violations_previous,violations_current,violations_change,developerFixes_previous,developerFixes_current,developerFixes_change,newViolations_previous,newViolations_current,newViolations_change,scans_run,scans_failed,most_recent_successful_scan,scan_failures
+chasen-bettinger,64,65,+1,4241,4265,+24,1,0,(-1),241,24,(-217),65,5,BoostSecurity semgrep (2024-06-03T21:23:39.712229+00:00),"BoostSecurity Trivy (Image scanning) (2024-05-29T18:03:03.824938+00:00) -- thefrenchbear/beauharnois -- ERROR -- [""command 'sh -ec $SETUP_PATH/trivy image ${TRIVY_ADDITI...' exited with non-zero exit status: 1""]
+
+BoostSecurity CodeQL (2024-05-24T21:08:42.262910+00:00) -- boostsecurityio/apex_boost/java-vuln-app -- ERROR -- [""command 'Create CodeQL database' exited with non-zero exit status: 127""]
+
+BoostSecurity CodeQL (2024-05-24T20:54:06.261441+00:00) -- boostsecurityio/apex_boost/java-vuln-app -- ERROR -- [""command 'Create CodeQL database' exited with non-zero exit status: 127""]
+
+BoostSecurity CodeQL (2024-05-24T18:59:01.527180+00:00) -- boostsecurityio/apex_boost/java-vuln-app -- ERROR -- [""command 'Create CodeQL database' exited with non-zero exit status: 127""]
+
+BoostSecurity gosec (2024-05-22T19:58:21.567000+00:00) -- the-apex-group/gl-go-peak -- BROKEN_INSTALLATION -- Broken integration. Installation not found"
