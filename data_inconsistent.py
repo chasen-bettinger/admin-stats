@@ -2,7 +2,7 @@ import json
 import boost
 
 
-accounts_to_look_at = ["demandbase"]
+accounts_to_look_at = ["umg"]
 # accounts_to_look_at = [
 #     "hubintl",
 #     "momsmeals",
@@ -27,7 +27,11 @@ for account in accounts:
     # ---
     group_findings = boost.get_group_findings(
         options={
-            "rule_groups": ["stored-secrets"],
+            "is_violation": False,
+            "viewer_asset_ids": [
+                "97061027-ef20-54cf-a22d-4f36e0323fd3",
+                "1b142503-6f05-5f03-941d-d7be4be1d237",
+            ],
             "org": account_name,
             "token": token_to_use,
         }
@@ -35,17 +39,21 @@ for account in accounts:
     rule_id_count = {}
     for record in group_findings:
         n = record.get("node")
-        original_rule_id = n.get("originalRuleId")
-        if original_rule_id != None:
-            continue
+        scm_provider = n.get("asset").get("scmProvider")
 
-        if rule_id_count.get(original_rule_id) == None:
-            rule_id_count[original_rule_id] = []
+        original_rule_id = n.get("ruleName")
 
-        rule_id_count[original_rule_id].append(n)
+        if rule_id_count.get(scm_provider) == None:
+            rule_id_count[scm_provider] = {}
+
+        t = rule_id_count[scm_provider]
+        if t.get(original_rule_id) == None:
+            t[original_rule_id] = []
+
+        t[original_rule_id].append(n)
 
     ledger[account_name] = rule_id_count
 
 
-with open("./only-null-gitleaks_ledger.json", "w") as file:
+with open("./findings-data-inconsistent.json", "w") as file:
     json.dump(ledger, file, indent=4)
