@@ -102,20 +102,36 @@ def get_scan_metrics(org, token):
     return scan_metrics_result["scanMetrics"]
 
 
-def get_scan_history(org, token):
+def get_scan_history(options):
+    resp = []
+
+    def process_output(response):
+        nonlocal resp
+        edges = response.get("analyses").get("edges")
+        resp = resp + edges
+
+    org = options.get("org")
+    token = options.get("token", None)
+    statuses = options.get("statuses", ["ERROR", "BROKEN_INSTALLATION", "TIMEOUT"])
+    from_date = options.get("from_date", "2024-05-22")
+    to_date = options.get("to_date", "2024-06-05")
+    asset_types = options.get(
+        "asset_types", ["SCM_ORGANIZATION", "SCM_REPOSITORY_CODE_CHANGE"]
+    )
     scan_history_options = {
         "url": urls["analysis_history"],
-        "tl_property": "analyses",
+        "post_execution": process_output,
+        "page_info_pointer": ["analyses"],
         "query": analytics_scans,
         "params": {
             "first": 100,
             "assets": [],
-            "assetTypes": [],
+            "assetTypes": asset_types,
             "analyzers": [],
-            "statuses": ["ERROR", "BROKEN_INSTALLATION", "TIMEOUT"],
+            "statuses": statuses,
             "assetIds": [],
-            "fromDate": "2024-05-22",
-            "toDate": "2024-06-05",
+            "fromDate": from_date,
+            "toDate": to_date,
             "page": 1,
         },
         "token": token,
@@ -123,8 +139,8 @@ def get_scan_history(org, token):
         "label": f"{org}_analysis_scan_history",
     }
 
-    scan_history_result = network.check_cache(scan_history_options)
-    return scan_history_result["analyses"]
+    network.paginate(scan_history_options)
+    return resp
 
 
 def get_accounts():
