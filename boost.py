@@ -279,7 +279,9 @@ def get_resources(options):
 
     provider_id = options.get("provider_id")
     collection_id = options.get("collection_id")
-    provisioned_analyzers = options.get("provisioned_analyzers")
+    provisioned_analyzers = options.get("provisioned_analyzers", [])
+    resource_attributes = options.get("resource_attributes", [])
+    no_cache = options.get("no_cache", False)
 
     params = {
         "providerId": provider_id,
@@ -290,7 +292,7 @@ def get_resources(options):
             "missingCoverages": [],
             "policy": [],
             "policyType": [],
-            "resourceAttributes": [],
+            "resourceAttributes": resource_attributes,
             "provisionedAnalyzers": provisioned_analyzers,
             "search": "",
         },
@@ -312,6 +314,7 @@ def get_resources(options):
         "label": label,
         "meta": {"org": org, "request": request},
         "page": 1,
+        "no_cache": no_cache,
     }
 
     if options.get("token") != None:
@@ -323,7 +326,8 @@ def get_resources(options):
 
 def get_security_posture_filters(options):
     request = "get_security_posture_filters"
-    provisioned_analyzers = options.get("provisioned_analyzers")
+    provisioned_analyzers = options.get("provisioned_analyzers", [])
+    resource_attributes = options.get("resource_attributes", [])
 
     params = {
         "filters": {
@@ -332,7 +336,7 @@ def get_security_posture_filters(options):
             "missingCoverages": [],
             "policy": [],
             "policyType": [],
-            "resourceAttributes": [],
+            "resourceAttributes": resource_attributes,
             "provisionedAnalyzers": provisioned_analyzers,
             "search": "",
         },
@@ -352,7 +356,11 @@ def get_security_posture_filters(options):
     if options.get("token") != None:
         network_options["token"] = options.get("token")
 
-    resp = network.check_cache(network_options)
+    if options.get("no_cache") == True:
+        resp = network.request_gql(network_options)
+    else:
+        resp = network.check_cache(network_options)
+
     return resp.get("securityPosture").get("filters")
 
 
@@ -405,3 +413,37 @@ def get_group_findings(options):
 
     network.paginate(network_options)
     return resp
+
+
+def get_security_posture_filter_attributes(options):
+    request = "get_security_posture_filter_attributes"
+
+    params = {
+        "filters": {
+            "resourceProvisioningStatuses": [],
+            "collections": [],
+            "missingCoverages": [],
+            "policy": [],
+            "policyType": [],
+            "resourceAttributes": [],
+            "provisionedAnalyzers": [],
+            "search": "",
+        },
+        "page": 1,
+    }
+    org = options.get("org")
+    label = f"{org}_{request}"
+
+    network_options = {
+        "url": urls["asset_management"],
+        "params": params,
+        "query": queries.get_security_posture_attributes,
+        "label": label,
+        "meta": {"org": org, "request": request},
+    }
+
+    if options.get("token") != None:
+        network_options["token"] = options.get("token")
+
+    resp = network.check_cache(network_options)
+    return resp.get("securityPosture").get("filters")

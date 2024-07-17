@@ -1,1 +1,3 @@
-multiple cache hits for airgap on page 1
+- harness for network requests
+- more thorough network support (reusable function)
+- better cache support (cache based on parameters used)
