@@ -1026,3 +1026,24 @@ query getGroupFindings($filters: FindingGroupFiltersSchema, $first: Int, $after:
 }
 """
 )
+
+
+get_security_posture_attributes = gql("""
+  query getSecurityPostureFilters($filters: Filters) {
+  securityPosture(filters: $filters) {
+    filters {
+      resourceAttribute {
+        ...BasicFilterCount
+        __typename
+      }
+    }
+    __typename
+  }
+}
+
+fragment BasicFilterCount on BasicFilterCount {
+  value
+  count
+  __typename
+}
+""")
