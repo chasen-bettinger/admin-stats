@@ -8,8 +8,8 @@ from gql.transport.aiohttp import AIOHTTPTransport
 
 cache_dir = "./cache"
 token_string = os.getenv("BOOST_API_TOKEN") or ""
-# token = f"ApiKey {token_string}"
-token = f"Bearer {token_string}"
+token = f"ApiKey {token_string}"
+# token = f"Bearer {token_string}"
 
 if token_string == "":
     raise ValueError("Please provide a token")
@@ -102,7 +102,12 @@ def check_cache(options):
 
 
 def paginate(options):
-    result = check_cache(options)
+    result = None
+    if options.get("no_cache") == True:
+        result = request_gql(options)
+    else:
+        result = check_cache(options)
+
     post_execution = options.get("post_execution")
     if post_execution != None:
         post_execution(result)
