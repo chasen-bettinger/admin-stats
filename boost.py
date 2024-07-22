@@ -11,10 +11,10 @@ import mutations
 
 
 def get_most_recent_successful_scan(options):
-    org=options.get("org")
-    token=options.get("token")
-    from_date=options.get("from_date")
-    to_date=options.get("to_date")
+    org = options.get("org")
+    token = options.get("token")
+    from_date = options.get("from_date")
+    to_date = options.get("to_date")
     most_recent_successful_scan_options = {
         "url": urls["analysis_history"],
         "tl_property": "analyses",
@@ -66,13 +66,17 @@ def get_most_recent_successful_scan(options):
     return most_recent_successful_result["analyses"]
 
 
-def get_analytics_summary(org, token):
+def get_analytics_summary(options):
+    org = options.get("org")
+    token = options.get("token")
+    from_date = options.get("from_date")
+    to_date = options.get("to_date")
     analytics_options = {
         "url": urls["analytics"],
         "query": analytics_summary,
         "params": {
-            "from_day": "2024-05-22",
-            "to_day": "2024-06-05",
+            "from_day": from_date,
+            "to_day": to_date,
             "bucket_size": "DAY",
             "max_rules": 5,
             "policyIds": [],
@@ -88,10 +92,10 @@ def get_analytics_summary(org, token):
 
 
 def get_scan_metrics(options):
-    org=options.get("org")
-    token=options.get("token")
-    from_date=options.get("from_date")
-    to_date=options.get("to_date")
+    org = options.get("org")
+    token = options.get("token")
+    from_date = options.get("from_date")
+    to_date = options.get("to_date")
     scan_metric_options = {
         "url": urls["analysis_history"],
         "query": analytics_scan_metrics,

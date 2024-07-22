@@ -33,6 +33,8 @@ accounts_to_look_at = [
     "mattel",
 ]
 """
+
+
 accounts = boost.get_accounts()
 for account in accounts:
     account_name = account.get("name")
@@ -44,35 +46,27 @@ for account in accounts:
     account_name_original = account_name
     account_name = account_name.replace("-", "_")
 
+    def get_options(options=None):
+        base_options = {
+            "org": account_name,
+            "token": token_to_use,
+            "from_date": four_weeks_ago_formatted_date,
+            "to_date": formatted_date,
+        }
+
+        if options != None:
+            base_options.update(options)
+
+        return base_options
+
     # ---
-    analytics_summary = boost.get_analytics_summary(account_name, token_to_use)
-
-    scan_metrics_options = {
-        "org": account_name,
-        "token": token_to_use,
-        "from_date": four_weeks_ago_formatted_date,
-        "to_date": formatted_date,
-    }
-    scan_metrics = boost.get_scan_metrics(scan_metrics_options)
+    analytics_summary = boost.get_analytics_summary(get_options())
+    scan_metrics = boost.get_scan_metrics(get_options())
     scan_history_options = {
-        "org": account_name,
-        "token": token_to_use,
         "statuses": [],
-        "from_date": four_weeks_ago_formatted_date,
-        "to_date": formatted_date,
     }
-    scan_history = boost.get_scan_history(scan_history_options)
-
-    most_recent_successful_scan_options = {
-        "org": account_name,
-        "token": token_to_use,
-        "from_date": four_weeks_ago_formatted_date,
-        "to_date": formatted_date,
-    }
-
-    most_recent_successful_scan = boost.get_most_recent_successful_scan(
-        most_recent_successful_scan_options
-    )
+    scan_history = boost.get_scan_history(get_options(scan_history_options))
+    most_recent_successful_scan = boost.get_most_recent_successful_scan(get_options())
 
     # ---
     account_row = csv_structure.build_account_row(
@@ -96,10 +90,6 @@ for account in accounts:
         # csv_structure.compile_scan_failures(scan_history),
     ]
     final_csv.append(account_row)
-
-
-current_date = datetime.now()
-formatted_date = current_date.strftime("%Y-%m-%d")
 
 with open(f"./{formatted_date}-account-overview.csv", "w", newline="") as file:
     writer = csv.writer(file)
