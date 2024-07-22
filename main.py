@@ -1,6 +1,7 @@
 import csv
 import boost
 import csv_structure
+from datetime import datetime, timedelta
 
 header_row = csv_structure.build_header_row(["account_name"])
 header_row = header_row + [
@@ -13,7 +14,15 @@ final_csv = [header_row]
 
 # ---
 
-# accounts_to_look_at = ["chasen-bettinger"]
+# TODO: create reusable options utility
+
+current_date = datetime.now()
+four_weeks_ago = current_date - timedelta(weeks=4)
+formatted_date = current_date.strftime("%Y-%m-%d")
+four_weeks_ago_formatted_date = four_weeks_ago.strftime("%Y-%m-%d")
+
+accounts_to_look_at = ["coupa"]
+"""
 accounts_to_look_at = [
     "hubintl",
     "momsmeals",
@@ -23,6 +32,7 @@ accounts_to_look_at = [
     "jamcity",
     "mattel",
 ]
+"""
 accounts = boost.get_accounts()
 for account in accounts:
     account_name = account.get("name")
@@ -36,10 +46,32 @@ for account in accounts:
 
     # ---
     analytics_summary = boost.get_analytics_summary(account_name, token_to_use)
-    scan_metrics = boost.get_scan_metrics(account_name, token_to_use)
-    scan_history = boost.get_scan_history(account_name, token_to_use)
+
+    scan_metrics_options = {
+        "org": account_name,
+        "token": token_to_use,
+        "from_date": four_weeks_ago_formatted_date,
+        "to_date": formatted_date,
+    }
+    scan_metrics = boost.get_scan_metrics(scan_metrics_options)
+    scan_history_options = {
+        "org": account_name,
+        "token": token_to_use,
+        "statuses": [],
+        "from_date": four_weeks_ago_formatted_date,
+        "to_date": formatted_date,
+    }
+    scan_history = boost.get_scan_history(scan_history_options)
+
+    most_recent_successful_scan_options = {
+        "org": account_name,
+        "token": token_to_use,
+        "from_date": four_weeks_ago_formatted_date,
+        "to_date": formatted_date,
+    }
+
     most_recent_successful_scan = boost.get_most_recent_successful_scan(
-        account_name, token_to_use
+        most_recent_successful_scan_options
     )
 
     # ---
@@ -65,6 +97,10 @@ for account in accounts:
     ]
     final_csv.append(account_row)
 
-with open("./060524-account-overview.csv", "w", newline="") as file:
+
+current_date = datetime.now()
+formatted_date = current_date.strftime("%Y-%m-%d")
+
+with open(f"./{formatted_date}-account-overview.csv", "w", newline="") as file:
     writer = csv.writer(file)
     writer.writerows(final_csv)
