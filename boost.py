@@ -10,7 +10,11 @@ from queries import (
 import mutations
 
 
-def get_most_recent_successful_scan(org, token):
+def get_most_recent_successful_scan(options):
+    org=options.get("org")
+    token=options.get("token")
+    from_date=options.get("from_date")
+    to_date=options.get("to_date")
     most_recent_successful_scan_options = {
         "url": urls["analysis_history"],
         "tl_property": "analyses",
@@ -47,8 +51,8 @@ def get_most_recent_successful_scan(org, token):
             ],
             "statuses": ["SUCCESS"],
             "assetIds": [],
-            "fromDate": "2024-05-22",
-            "toDate": "2024-06-05",
+            "fromDate": from_date,
+            "toDate": to_date,
             "page": 1,
         },
         "token": token,
@@ -83,13 +87,17 @@ def get_analytics_summary(org, token):
     return result["insights"]["summary"]
 
 
-def get_scan_metrics(org, token):
+def get_scan_metrics(options):
+    org=options.get("org")
+    token=options.get("token")
+    from_date=options.get("from_date")
+    to_date=options.get("to_date")
     scan_metric_options = {
         "url": urls["analysis_history"],
         "query": analytics_scan_metrics,
         "params": {
-            "fromDate": "2024-05-22",
-            "toDate": "2024-06-05",
+            "fromDate": from_date,
+            "toDate": to_date,
             "policyIds": [],
             "page": 1,
         },
@@ -113,6 +121,7 @@ def get_scan_history(options):
     org = options.get("org")
     token = options.get("token", None)
     statuses = options.get("statuses", ["ERROR", "BROKEN_INSTALLATION", "TIMEOUT"])
+    # TODO: better defaults
     from_date = options.get("from_date", "2024-05-22")
     to_date = options.get("to_date", "2024-06-05")
     asset_types = options.get(
