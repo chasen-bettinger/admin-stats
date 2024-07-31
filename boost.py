@@ -48,6 +48,7 @@ def get_most_recent_successful_scan(options):
                 "boostsecurityio/gitleaks",
                 "boostsecurityio/scanner",
                 "boostsecurityio/trivy-sbom",
+                "boostsecurityio/sbom-sca",
             ],
             "statuses": ["SUCCESS"],
             "assetIds": [],

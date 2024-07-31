@@ -21,7 +21,7 @@ four_weeks_ago = current_date - timedelta(weeks=4)
 formatted_date = current_date.strftime("%Y-%m-%d")
 four_weeks_ago_formatted_date = four_weeks_ago.strftime("%Y-%m-%d")
 
-accounts_to_look_at = ["coupa"]
+accounts_to_look_at = ["mattel", "audubon"]
 """
 accounts_to_look_at = [
     "hubintl",
@@ -73,13 +73,18 @@ for account in accounts:
         [account_name_original],
         analytics_summary,
     )
-    most_recent_successful_node = most_recent_successful_scan.get("edges")[0].get(
-        "node"
+
+    most_recent_successful_node = {}
+    successful_scan_edges = most_recent_successful_scan.get("edges", [])
+    if len(successful_scan_edges) > 0:
+        most_recent_successful_node = successful_scan_edges[0].get("node")
+
+    most_recent_successful_timestamp = most_recent_successful_node.get(
+        "timestamp", "N/A"
     )
-    most_recent_successful_timestamp = most_recent_successful_node.get("timestamp")
-    most_recent_successful_scanner = most_recent_successful_node.get("analyzer").get(
-        "analyzerName"
-    )
+    most_recent_successful_scanner = most_recent_successful_node.get(
+        "analyzer", {}
+    ).get("analyzerName", "N/A")
     most_recent_successful_string = (
         f"{most_recent_successful_scanner} ({most_recent_successful_timestamp})"
     )
@@ -90,6 +95,17 @@ for account in accounts:
         # csv_structure.compile_scan_failures(scan_history),
     ]
     final_csv.append(account_row)
+
+
+for index, v in enumerate(final_csv):
+    if index == 0:
+        continue
+
+    for jndex, w in enumerate(v):
+        header = final_csv[0][jndex]
+        output = f"{header}: {w}"
+        print(output)
+
 
 with open(f"./{formatted_date}-account-overview.csv", "w", newline="") as file:
     writer = csv.writer(file)
